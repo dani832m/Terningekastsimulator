@@ -25,6 +25,14 @@ button:hover {
     background-color: white;
 }
 
+p {
+    display: inline;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(221, 221, 221);
+    text-shadow: 1px 1px 2px #000;
+}
+
 #resultat {
     border: 1px black solid;
     border-radius: 10px;
@@ -35,4 +43,20 @@ button:hover {
     font-weight: bold;
     background-color: white;
     box-shadow: 2px 2px 6px #000;
+}
+
+#vurdering {
+    display: inline-flex;
+    font-size: 16px;
+    color: rgb(221, 221, 221);
+    text-shadow: 2px 2px 3px #000;
+    margin-top: 20px;
+}
+
+#tidligereSlag {
+    display: inline-flex;
+    font-size: 16px;
+    color: rgb(221, 221, 221);
+    text-shadow: 2px 2px 3px #000;
+    margin-top: 10px;
 }
