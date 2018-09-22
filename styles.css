@@ -61,6 +61,14 @@ p {
     margin-top: 10px;
 }
 
+#totalCount {
+    display: inline-flex;
+    font-size: 16px;
+    color: rgb(221, 221, 221);
+    text-shadow: 2px 2px 3px #000;
+    margin-top: 10px;
+}
+
 @media screen and (max-width: 600px) {
     body {
         padding: 0px 10px 5px 10px;
@@ -79,6 +87,9 @@ p {
         margin-top: 0px;
     }
     #tidligereSlag {
+        margin-top: 0px;
+    }
+    #totalCount {
         margin-top: 0px;
     }
 }

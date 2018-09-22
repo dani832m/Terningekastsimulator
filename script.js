@@ -1,6 +1,9 @@
+var count = 0;
+
 /*  Genererer et random tal mellem 1-6 og udskriver til id="resultat".
-    Baseret på tallet gives en tekstbaseret vurdering.  */
+    Baseret på tallet gives en tekstbaseret vurdering, og count inkrementeres.  */
 function kastTerning() {
+    count++;
     var randomTal = Math.floor((Math.random() * 6) + 1);
     document.getElementById("resultat").innerHTML = randomTal;
 
@@ -22,6 +25,8 @@ function kastTerning() {
     else {
         document.getElementById("vurdering").innerHTML = "SEKSER! Du må stjæle en pakke!"
     }
+
+    document.getElementById("totalCount").innerHTML = count;
 }
 
 /*  Tilføjer det tidligere slag til id="tidligereSlag". */
